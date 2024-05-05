@@ -40,10 +40,3 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
-
-
-
-作者: xian
-链接: https://freelxy.site/posts/8be389f9/
-来源: FREElxy
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
