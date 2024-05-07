@@ -13,7 +13,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: "history",
-  base: process.env.BASE_URL,
+  base: process.env.NODE_ENV === "production" ? "/sub-web" : process.env.BASE_URL,
   routes
 });
 
