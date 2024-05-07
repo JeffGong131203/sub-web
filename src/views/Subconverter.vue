@@ -212,7 +212,7 @@ export default {
           Trojan: "trojan",
           Surge3: "surge&ver=3",
         },
-        backendOptions: [{ value: "https://jeffsub.servehttp.com/sub?" }],
+        backendOptions: [{ value: "http://jeffsub.servehttp.com/sub?" }],
         remoteConfig: [
           {
             label: "universal",
