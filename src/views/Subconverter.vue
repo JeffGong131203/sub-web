@@ -212,11 +212,21 @@ export default {
           Trojan: "trojan",
           Surge3: "surge&ver=3",
         },
-        backendOptions: [{ value: "http://jeffsub.servehttp.com/sub?" }],
+        backendOptions: [
+          { 
+            label: "默认后端",
+            value: "http://jeffsub.servehttp.com/sub?" 
+          }
+        ],
         remoteConfig: [
           {
             label: "universal",
             options: [
+              {
+                label: "Jeff",
+                value:
+                  "https://cdn.jsdelivr.net/gh/JeffGong131203/ACL4SSR@main/Jeff_Online.ini"
+              },
               {
                 label: "No-Urltest",
                 value:
