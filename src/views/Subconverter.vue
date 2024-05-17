@@ -215,7 +215,7 @@ export default {
         backendOptions: [
           { 
             label: "默认后端",
-            value: "http://jeffsub.servehttp.com/sub?" 
+            value: "https://sub.jeffgong.online/sub?" 
           }
         ],
         remoteConfig: [
