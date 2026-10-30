@@ -215,7 +215,7 @@ export default {
         backendOptions: [
           { 
             label: "默认后端",
-            value: "https://sub.jeffgong.online/sub?" 
+            value: "https://sub.cloudcone.jeffgong.online/sub?" 
           }
         ],
         remoteConfig: [
